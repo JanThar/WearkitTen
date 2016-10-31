@@ -219,14 +219,6 @@
 <text x="-0.127" y="1.0795" size="0.254" layer="25" align="bottom-right">&gt;NAME</text>
 <text x="0.127" y="1.0795" size="0.254" layer="27">&gt;VALUE</text>
 </package>
-<package name="MVS06O8">
-<text x="0" y="1.778" size="0.254" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-1.778" size="0.254" layer="27" align="center">&gt;VALUE</text>
-<smd name="1" x="-1.2065" y="0" dx="2.794" dy="1.397" layer="1" rot="R90"/>
-<smd name="2" x="1.2065" y="0" dx="2.794" dy="1.397" layer="1" rot="R90"/>
-<wire x1="-0.3175" y1="1.3335" x2="0.3175" y2="1.3335" width="0.127" layer="51"/>
-<wire x1="-0.3175" y1="-1.3335" x2="0.3175" y2="-1.3335" width="0.127" layer="51"/>
-</package>
 <package name="CARRIER_SMD2">
 <smd name="GND" x="-8" y="0" dx="12.7" dy="2" layer="16" rot="R270"/>
 <smd name="RX/TX" x="0" y="0" dx="12.7" dy="2" layer="16" rot="R270"/>
@@ -293,6 +285,80 @@
 <smd name="GND'" x="8" y="3.5" dx="19.7" dy="2" layer="16" rot="R270"/>
 <smd name="VCC" x="-4" y="3.5" dx="19.7" dy="2" layer="16" rot="R270"/>
 </package>
+<package name="LINEAR_POTI">
+<pad name="VA" x="-25.4" y="-1.905" drill="0.8"/>
+<pad name="MIDDLE" x="-25.4" y="1.905" drill="0.8"/>
+<pad name="VB" x="25.4" y="-1.905" drill="0.8"/>
+<wire x1="-30.48" y1="4.445" x2="30.48" y2="4.445" width="0.127" layer="21"/>
+<wire x1="30.48" y1="4.445" x2="30.48" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="30.48" y1="-4.445" x2="-30.48" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="-4.445" x2="-30.48" y2="4.445" width="0.127" layer="21"/>
+<text x="0" y="0.254" size="0.254" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.254" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="POTI35">
+<description>&lt;b&gt; BI TECHNOLOGIES/TT ELECTRONICS - 35WR10KLFTR - TRIMMER CERMET, 3MM 10K &lt;/b&gt; &lt;p&gt;
+
+Farnell Best.Nr.:
+    1520616&lt;br&gt;
+Herst.Bez.:
+    35WR10KLFTR</description>
+<smd name="1" x="-1.6" y="1" dx="1.2" dy="1.2" layer="1"/>
+<smd name="3" x="-1.6" y="-1" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.5" dy="1.6" layer="1"/>
+<wire x1="-1.75" y1="0.25" x2="-1.75" y2="-0.25" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1" x2="1.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.5" x2="-0.75" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="1.5" x2="1.75" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.5" x2="1.75" y2="1" width="0.127" layer="21"/>
+<text x="0" y="0.254" size="0.254" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.254" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="3382G">
+<smd name="P$1" x="-2.5" y="-7.7" dx="1.8" dy="2" layer="1"/>
+<smd name="P$2" x="0" y="-7.7" dx="1.8" dy="2" layer="1"/>
+<smd name="P$3" x="2.5" y="-7.7" dx="1.8" dy="2" layer="1"/>
+<smd name="P$4" x="0" y="6.2" dx="1.8" dy="2" layer="1"/>
+<hole x="4.25" y="-5.49" drill="1.1"/>
+<hole x="-4.25" y="-5.49" drill="1.1"/>
+<wire x1="-5.5" y1="-6.5" x2="5.5" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="5.5" y1="-6.5" x2="5.5" y2="3" width="0.127" layer="51"/>
+<wire x1="5.5" y1="3" x2="3" y2="5.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="5.5" x2="-5.5" y2="3" width="0.127" layer="51"/>
+<wire x1="-5.5" y1="3" x2="-5.5" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-3" y1="5.5" x2="-1.5" y2="5.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="5.5" x2="3" y2="5.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+</package>
+<package name="MURATA-PVZ">
+<description>&lt;b&gt; MURATA  PVZ2A103C04B00  TRIMMER, SMD, 10K  &lt;/b&gt; &lt;p&gt;
+
+Farnell Best.Nr.:
+    1771725  &lt;br&gt;
+Herst.Bez.:
+    PVZ2A103C04B00</description>
+<smd name="P$1" x="-1" y="-1.2" dx="0.6" dy="0.7" layer="1"/>
+<smd name="P$3" x="1" y="-1.2" dx="0.6" dy="0.7" layer="1"/>
+<smd name="P$2A" x="0" y="1.2" dx="0.9" dy="0.7" layer="1"/>
+<wire x1="-0.625" y1="1.125" x2="-1.125" y2="1.125" width="0.127" layer="37"/>
+<wire x1="-1.125" y1="1.125" x2="-1.125" y2="-0.625" width="0.127" layer="37"/>
+<wire x1="0.625" y1="1.125" x2="1.125" y2="1.125" width="0.127" layer="37"/>
+<wire x1="1.125" y1="1.125" x2="1.125" y2="-0.625" width="0.127" layer="37"/>
+<wire x1="-0.5" y1="-1.125" x2="0.5" y2="-1.125" width="0.127" layer="37"/>
+<text x="0" y="0.254" size="0.254" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-0.254" size="0.254" layer="27" align="center">&gt;VALUE</text>
+</package>
+<package name="603_SMALL">
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<smd name="1" x="-0.6985" y="0" dx="0.635" dy="1.016" layer="1"/>
+<smd name="2" x="0.6985" y="0" dx="0.635" dy="1.016" layer="1"/>
+<text x="-0.127" y="0.6985" size="0.254" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="0.127" y="0.6985" size="0.254" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="CARRIER_SMD2_3POL">
 <smd name="GND" x="-6.985" y="0" dx="12.7" dy="4" layer="16" rot="R270"/>
 <smd name="RX/TX" x="6.985" y="0" dx="12.7" dy="4" layer="16" rot="R270"/>
@@ -328,17 +394,6 @@
 <wire x1="9" y1="6" x2="9" y2="-6" width="0.127" layer="48"/>
 <smd name="VCC''" x="-9.4615" y="-4.2545" dx="1.016" dy="1.016" layer="1" rot="R90"/>
 <smd name="VCC" x="0" y="3.4925" dx="19.7" dy="4" layer="16" rot="R270"/>
-</package>
-<package name="603_SMALL">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<smd name="1" x="-0.6985" y="0" dx="0.635" dy="1.016" layer="1"/>
-<smd name="2" x="0.6985" y="0" dx="0.635" dy="1.016" layer="1"/>
-<text x="-0.127" y="0.6985" size="0.254" layer="25" align="bottom-right">&gt;NAME</text>
-<text x="0.127" y="0.6985" size="0.254" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -450,15 +505,24 @@
 <pin name="17" x="22.86" y="-20.32" visible="pad" length="middle" rot="R180"/>
 <pin name="TP" x="22.86" y="20.32" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="PINHD_2">
-<pin name="0" x="-10.16" y="2.54" length="middle"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<text x="0" y="7.62" size="1.27" layer="95" align="center">&gt;VALUE</text>
-<text x="0" y="-5.08" size="1.27" layer="95" align="center">&gt;NAME</text>
-<pin name="1" x="-10.16" y="0" length="middle"/>
+<symbol name="POTI">
+<wire x1="-1.778" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="2.54" x2="-3.302" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0" x2="-4.4196" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-3.302" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="1.27" x2="-4.191" y2="2.413" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-0.508" x2="-5.588" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-0.508" x2="-4.572" y2="-1.524" width="0.1524" layer="94"/>
+<pin name="A" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="2.54" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="2.54" y="-5.08" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.27" layer="95" align="center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -668,22 +732,47 @@ Herst.Bez.:
 </device>
 </devices>
 </deviceset>
-<deviceset name="MVS0608">
-<description>&lt;b&gt; SENSOLUTE - MVS0608.02 - SENSOR,MICROVIBRATION ALLE RICHTUNGEN &lt;/b&gt; &lt;p&gt;
-
-Farnell Best.Nr.:
-    1768152&lt;br&gt;
-
-Herst.Bez.:
-    MVS0608.02</description>
+<deviceset name="POTI">
+<description>&lt;b&gt; veränderbarer Widerstand &lt;/b&gt; &lt;p&gt;</description>
 <gates>
-<gate name="A" symbol="PINHD_2" x="0" y="-2.54"/>
+<gate name="G$1" symbol="POTI" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="MVS06O8">
+<device name="RESTE" package="LINEAR_POTI">
 <connects>
-<connect gate="A" pin="0" pad="1"/>
-<connect gate="A" pin="1" pad="2"/>
+<connect gate="G$1" pin="A" pad="VA"/>
+<connect gate="G$1" pin="E" pad="VB"/>
+<connect gate="G$1" pin="S" pad="MIDDLE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="POTI35">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3382G" package="3382G">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="E" pad="P$2"/>
+<connect gate="G$1" pin="S" pad="P$3 P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MURATA_PVZ" package="MURATA-PVZ">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="E" pad="P$3"/>
+<connect gate="G$1" pin="S" pad="P$2A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -797,7 +886,7 @@ Herst.Bez.:
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
-<part name="U$1" library="thar" deviceset="CARRIER_SMD2" device="SMD2_3POL" value="CARRIER_SMD2SMD2_3POL"/>
+<part name="U$1" library="thar" deviceset="CARRIER_SMD2" device="SMD2_3POL_W" value="CARRIER_SMD2SMD2_3POL_W"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
@@ -809,9 +898,11 @@ Herst.Bez.:
 <part name="U$10" library="thar" deviceset="MSP430G2553" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="U$4" library="thar" deviceset="MVS0608" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="U$3" library="thar" deviceset="POTI" device="3382G"/>
+<part name="P+2" library="supply1" deviceset="VCC" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -831,9 +922,11 @@ Herst.Bez.:
 <instance part="U$10" gate="G$1" x="101.6" y="99.06"/>
 <instance part="GND5" gate="1" x="129.54" y="114.3"/>
 <instance part="GND6" gate="1" x="71.12" y="96.52"/>
-<instance part="U$4" gate="A" x="48.26" y="111.76" rot="R180"/>
-<instance part="GND2" gate="1" x="144.78" y="104.14"/>
 <instance part="P+1" gate="VCC" x="152.4" y="106.68"/>
+<instance part="GND2" gate="1" x="144.78" y="104.14"/>
+<instance part="U$3" gate="G$1" x="43.18" y="91.44"/>
+<instance part="P+2" gate="VCC" x="40.64" y="99.06"/>
+<instance part="GND4" gate="1" x="40.64" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -898,6 +991,10 @@ Herst.Bez.:
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="144.78" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="A"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -928,19 +1025,16 @@ Herst.Bez.:
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="152.4" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="E"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="3"/>
-<pinref part="U$4" gate="A" pin="1"/>
-<wire x1="76.2" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$10" gate="G$1" pin="4"/>
-<pinref part="U$4" gate="A" pin="0"/>
-<wire x1="76.2" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="S"/>
+<pinref part="U$10" gate="G$1" pin="5"/>
+<wire x1="45.72" y1="91.44" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -859,9 +859,10 @@ Herst.Bez.:
 <part name="U$6" library="thar" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="C2" library="thar" deviceset="CAPACITOR" device="" value="100n"/>
-<part name="U$5" library="thar" deviceset="RESISTOR" device="1206" value="0k"/>
+<part name="U$5" library="thar" deviceset="RESISTOR" device="0603" value="0k"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="U$7" library="thar" deviceset="RESISTOR" device="0603" value="0k"/>
 </parts>
 <sheets>
 <sheet>
@@ -890,9 +891,10 @@ Herst.Bez.:
 <instance part="U$6" gate="G$1" x="36.83" y="100.33" rot="R90"/>
 <instance part="P+7" gate="VCC" x="36.83" y="107.95"/>
 <instance part="C2" gate="G$1" x="12.7" y="73.66" rot="R270"/>
-<instance part="U$5" gate="G$1" x="50.8" y="104.14" rot="R180"/>
+<instance part="U$5" gate="G$1" x="50.8" y="116.84" rot="R180"/>
 <instance part="P+1" gate="VCC" x="152.4" y="106.68"/>
 <instance part="GND7" gate="1" x="144.78" y="104.14"/>
+<instance part="U$7" gate="G$1" x="60.96" y="116.84" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1050,14 +1052,20 @@ Herst.Bez.:
 <pinref part="U5" gate="A" pin="!DRDY"/>
 <pinref part="U$6" gate="G$1" pin="1"/>
 <pinref part="U$5" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="104.14" x2="36.83" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="116.84" x2="36.83" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="5"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="116.84" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
 <pinref part="U$5" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="106.68" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
